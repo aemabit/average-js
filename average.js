@@ -13,7 +13,7 @@ function aveOne(event){
 
     document.querySelector('#totalAverageOne').textContent = averageFinal.toFixed(1);
     document.querySelector('#answer').classList.remove('hiddenOne');
-
+    document.querySelector('#averageOne').setAttribute("disabled", "");
 }
 
 oneAverage.addEventListener('submit', aveOne);
@@ -34,6 +34,7 @@ function aveTwo(event){
 
     document.querySelector('#totalAverageTwo').textContent = averageFinal.toFixed(1);
     document.querySelector('#answerTwo').classList.remove('hiddenTwo');
+    document.querySelector('#averageTwo').setAttribute("disabled", "");
 
 }
 
@@ -54,6 +55,7 @@ function aveThree(event){
 
     document.querySelector('#totalAverageThree').textContent = averageFinal.toFixed(1);
     document.querySelector('#answerThree').classList.remove('hiddenThree');
+    document.querySelector('#averageThree').setAttribute("disabled", "");
 
 }
 
@@ -75,6 +77,7 @@ function aveFour(event){
 
     document.querySelector('#totalAverageFour').textContent = averageFinal.toFixed(1);
     document.querySelector('#answerFour').classList.remove('hiddenFour');
+    document.querySelector('#averageFour').setAttribute("disabled", "");
 
 }
 
