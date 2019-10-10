@@ -44,6 +44,7 @@ function checkbtnFour(){
     
     if(oneAveragebtn && twoAverageBtn && threeAverageBtn && fourAverageBtn === 4){
         console.log("stay rdy")
+        document.querySelector('.lastContainer').classList.remove('lastThanks');
      }else{
          console.log("not yet")
      }

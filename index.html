@@ -8,10 +8,38 @@
     <!-- CSS -->
     <link rel="stylesheet" href="master.css">
 
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/0569cd482e.js" crossorigin="anonymous"></script>
+
 </head>
 <body id="body-box">
     
+    
     <div class="container">
+        <div class="firstpage">
+            <div class="welcome"><span>GET DISCOUNT AND PROMOS</span></div>
+            <form id="formFirstPage">
+            <div class="email">
+                <span>Email<span>*</span></span>
+                <input type="email" name="email" id="email" placeholder="e-mail" autocomplete="off" required>
+            </div>
+            <div class="phone">
+                <span>Phone number</span>
+                <input type="tel" name="phone" id="phone" autocomplete="off" placeholder="ej: 123456789">
+                <span class="opt">optional</span>
+                <button id="firstpage-btn" type="submit">Get in touch</button>
+            </div>
+        </form>
+            <div class="skip"><span>skip this page</span></div>
+        </div>
+
+        <div id="thanks" class="lastContainer lastThanks">
+            <div class="close"><a href="javascript:location.reload()"><i class="fas fa-times"></i></a></div>
+            <div class="congratulation"><i class="fas fa-check-circle"></i></div>
+            <div class="text-congrats"><span>THANK YOU</span><br>
+                 <span>FOR YOUR FEEDBACK</span></div>
+        </div>
+
         <div class="profile-box">
             <div class="img-box"><img class="porfile-img" src="MejiaAndres.jpg" alt="porfile-img"></div>
             <form id="one">
@@ -88,8 +116,8 @@
         </div>
 
     </div>
-    
-
+  
+    <script src="firstpage.js"></script>
     <script src="average.js"></script>
     <script src="test.js"></script>
 </body>
